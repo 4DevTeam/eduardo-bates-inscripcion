@@ -1,0 +1,47 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+.section.is-custom1 {
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../resources/backgrounds/B2.png');
+}
+
+.section.is-custom2 {
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../resources/backgrounds/B4.png');
+}
+
+#text {
+    margin-top: 8vh;
+    text-align: justify;
+    color: white;
+}
+
+#text strong {
+    color: white;
+}
+
+#text h1 {
+    font-size: xx-large;
+}
+
+#text p {
+    font-size: x-large;
+}
+
+.band {
+    
+}
+
+.nav {
+    background-color: black;
+}
+
+.nav img {
+    width: 50vh;
+}
