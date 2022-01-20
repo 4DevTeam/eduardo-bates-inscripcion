@@ -1,47 +1,135 @@
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
-.section.is-custom1 {
-    height: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('../resources/backgrounds/B2.png');
-}
-
-.section.is-custom2 {
-    height: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('../resources/backgrounds/B4.png');
-}
-
-#text {
-    margin-top: 8vh;
-    text-align: justify;
-    color: white;
-}
-
-#text strong {
-    color: white;
-}
-
-#text h1 {
-    font-size: xx-large;
-}
-
-#text p {
-    font-size: x-large;
-}
-
-.band {
-    
+p, h1, body {
+    margin: 0px 0px 0px 0px;
 }
 
 .nav {
+    margin: 0px 0px 0px 0px;
     background-color: black;
 }
 
-.nav img {
-    width: 50vh;
+.section1 {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: url('../resources/backgrounds/B2.png');
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.content1 {
+    display: inline;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: 10vw 10vh 10vw 10vh;
+}
+
+.text1 {
+    margin: 5vh 6vw 2vh 5vw;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5vh;
+}
+
+button {
+    padding-top: 5vh;
+}
+
+.image1 {
+    display: inline;
+    width: 50%;
+    height: auto;
+    margin-top: 10vh;
+}
+
+.image1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+}
+
+.section2 {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: auto;
+    background-image: url('../resources/backgrounds/B4.png');
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.title2 {
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.text2 {
+    display: inline;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: 5vh 10vw 2vh 10vw;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5vh;
+}
+
+.image2 {
+    display: inline;
+    width: 50%;
+    height: auto;
+}
+
+.item {
+    width: auto;
+    height: auto;
+}
+
+.item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-img {
+    padding-top: 2vh;
+}
+
+.section3 {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: auto;
+    background-image: url('../resources/backgrounds/B5.png');
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.content3 {
+    display: flex;
+}
+
+.video {
+    width: 50%;
+}
+
+.form {
+    width: 50%;
 }
