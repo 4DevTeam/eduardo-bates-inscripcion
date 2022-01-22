@@ -6,8 +6,28 @@ p, h1, body {
 }
 
 .nav {
+    display: flex;
     margin: 0px 0px 0px 0px;
     background-color: black;
+}
+
+.image-nav {
+    width: 70%;
+}
+
+.social-media-nav {
+    display: flex;
+    width: 30%;
+}
+
+.item-social-nav {
+    margin-top: 2.3vh;
+}
+
+.item-social-nav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section1 {
