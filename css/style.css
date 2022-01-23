@@ -230,6 +230,7 @@ p, h1, body {
     border: none;
     border-radius: 30px;
     padding: 1vh;
+    margin-bottom: 3vh;
 }
 
 .send-button {
@@ -313,6 +314,7 @@ p, h1, body {
 
     .button1 {
         padding: 0vh 0vw 0vh 0vw;
+        margin-top: 1vh;
         margin-left: 10vw;
         margin-right: 10vw;
     }
@@ -328,11 +330,11 @@ p, h1, body {
     .content2 {
         margin-top: 0px;
         margin-bottom: 0px;
-        padding-bottom: 0px;
+        padding-bottom: 10px;
     }
 
     .title2 {
-        padding-top: 3vh;
+        padding-top: 2vh;
         font-size: 1vh;
     }
 
@@ -343,19 +345,62 @@ p, h1, body {
     .text2 {
         width: 50%;
         font-size: 1vh;
+        margin-top: 1vh;
         margin-left: 5vw;
         margin-right: 5vw;
+        margin-bottom: 0vh;
+    }
+
+    .text2 p {
+        font-size: 2vh;
+    }
+
+    .question2 {
+        margin-top: 2vh;
+    }
+
+    .button2 {
+        margin-top: 1vh;
+        margin-bottom: 0vh;
+        padding: 1vh 2vw;
     }
 
     .button2 a {
-        font-size: 3vh;
+        font-size: 2vh;
     }
 
     .margin-img {
         margin-top: 0%;
+        padding-top: 1vh;
     }
 
     .section3 {
         background-position: inherit;
+    }
+
+    .form h1 {
+        font-size: 3vh;
+        margin-top: 1vh;
+    }
+
+    #contact-form label {
+        font-size: 2vh;
+    }
+
+    #contact-form {
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    }
+
+    .send-button {
+        font-size: 2vh;
+        margin-top: .5vh;
+        margin-bottom: .5vh;
+    }
+    
+    .input-area {
+        padding: 1vh;
+        margin-bottom: 0vh;
+        padding-bottom: .5vh;
     }
 }
