@@ -363,11 +363,11 @@ p, h1, body {
     .button2 {
         margin-top: 1vh;
         margin-bottom: 0vh;
-        padding: 1vh 2vw;
+        padding: .5vh 2vw;
     }
 
     .button2 a {
-        font-size: 2vh;
+        font-size: 1vh;
     }
 
     .margin-img {
@@ -391,6 +391,8 @@ p, h1, body {
     #contact-form {
         margin-top: 0vh;
         margin-bottom: 0vh;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .send-button {
@@ -404,5 +406,13 @@ p, h1, body {
         padding: 1vh;
         margin-bottom: 0vh;
         padding: 2px .3px 2px .3px;
+    }
+
+    .video {
+        padding-top: 0vh;
+    }
+
+    .video video {
+        padding-top: 7vh;
     }
 }
