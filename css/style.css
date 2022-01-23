@@ -47,7 +47,7 @@ p, h1, body {
     width: 50%;
     height: auto;
     text-align: center;
-    margin: 4vw 10vh 10vw 0vh;
+    margin: 0vw 10vh 0vw 0vh;
 }
 
 .text1 {
@@ -81,16 +81,17 @@ p, h1, body {
 }
 
 .image1 {
-    display: inline;
     width: 50%;
-    height: auto;
-    margin-top: 4vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
 }
 
 .image1 img {
+    padding-top: 10vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
 }
 
 .content2 {
@@ -254,13 +255,14 @@ p, h1, body {
     margin-right: auto;
 }
 
-@media screen and (max-height: 1000px) and (max-width: 800px) {
+/*Adaptation mobile*/
+@media screen and (max-width: 1080px) {
     .image-nav {
         width: 50%;
     }
 
     .image-nav img {
-        width: 60%;
+        width: 100%;
         height: auto;
     }
 
@@ -277,37 +279,35 @@ p, h1, body {
     }
 
     .item-social-nav img {
-        width: 60%;
+        width: 80%;
     }
 
     .section1 {
         margin-top: 0%;
         margin-bottom: 0%;
-        background-size: auto;
         background-position: inherit;
     }
     
     .content1 {
         padding-top: 1vh;
-        margin-left: 2vw;
-        margin-right: 2vw;
-        margin-bottom: 3vh;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        margin-bottom: 0vh;
     }
 
     .title1 {
-        font-size: 5vh;
+        font-size: 2vh;
     }
 
     .text1 {
-        font-size: 4vh;
+        font-size: 1vh;
         margin-top: 0%;
         padding-top: 2vh;
     }
 
     .image1 img {
         width: auto;
-        height: 65vh;
-        padding-top: 10vh;
+        height: 50%;
     }
 
     .button1 {
@@ -316,12 +316,11 @@ p, h1, body {
     }
     
     .button1 a {
-        font-size: 3vh;
+        font-size: 1vh;
     }
 
     .section2 {
         background-position: inherit;
-        background-size: auto;
     }
 
     .content2 {
@@ -332,7 +331,7 @@ p, h1, body {
 
     .title2 {
         padding-top: 3vh;
-        font-size: 3vh;
+        font-size: 1vh;
     }
 
     .image2 {
@@ -341,7 +340,7 @@ p, h1, body {
 
     .text2 {
         width: 50%;
-        font-size: 4vh;
+        font-size: 1vh;
         margin-left: 5vw;
         margin-right: 5vw;
     }
