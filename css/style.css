@@ -302,7 +302,7 @@ p, h1, body {
     }
 
     .text1 {
-        font-size: 1vh;
+        font-size: 1.5vh;
         margin-top: 0%;
         padding-top: 2vh;
     }
@@ -312,6 +312,7 @@ p, h1, body {
     }
 
     .button1 {
+        padding: 0vh 0vw 0vh 0vw;
         margin-left: 10vw;
         margin-right: 10vw;
     }
