@@ -285,10 +285,12 @@ p, h1, body {
     .section1 {
         margin-top: 0%;
         margin-bottom: 0%;
+        height: auto;
         background-position: inherit;
     }
     
     .content1 {
+        height: auto;
         padding-top: 1vh;
         margin-left: 0vw;
         margin-right: 0vw;
@@ -306,8 +308,7 @@ p, h1, body {
     }
 
     .image1 img {
-        width: auto;
-        height: 50%;
+        padding-top: 1vh;
     }
 
     .button1 {
