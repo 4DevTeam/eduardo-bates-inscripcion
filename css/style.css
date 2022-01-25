@@ -186,7 +186,6 @@ p, h1, body {
     width: 100%;
     height: 100%;
     background-image: url('../resources/backgrounds/B5.png');
-    background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
     color: white;
@@ -393,7 +392,6 @@ p, h1, body {
         width: 100%;
         height: 100%;
         background-image: url('../resources/backgrounds/B4.png');
-        background-position: center center;
         background-size: 100%;
         background-repeat: no-repeat;
         color: white;
