@@ -377,7 +377,7 @@ p, h1, body {
     }
 
     .button2 a {
-        font-size: 1vh;
+        font-size: 2vh;
     }
 
     .margin-img {
@@ -426,14 +426,14 @@ p, h1, body {
     }
 
     .send-button {
-        font-size: 1vh;
-        margin-top: .5vh;
-        margin-bottom: .5vh;
-        padding: 4px;
+        font-size: 3vh;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding: 10px;
     }
     
     .input-area {
-        padding: 1vh;
+        padding: 1.5vh;
         margin-bottom: 0vh;
         padding: 2px .3px 2px .3px;
     }
