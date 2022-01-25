@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
 
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
 p, h1, body {
     margin: 0px 0px 0px 0px;
 }
@@ -182,7 +188,7 @@ p, h1, body {
 
 .section3 {
     margin: 0px 0px 0px 0px;
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
     width: 100%;
     height: 100%;
     background-image: url('../resources/backgrounds/B5.png');
@@ -196,7 +202,7 @@ p, h1, body {
 }
 
 .video {
-    width: 50%;
+    width: 60%;
 }
 
 .video video {
@@ -277,6 +283,10 @@ p, h1, body {
 
     .item-social-nav {
         margin-top: 2vh;
+    }
+
+    #facebook {
+        margin-top: 1.5vh;
     }
 
     .item-social-nav img {
@@ -384,11 +394,11 @@ p, h1, body {
 
     .content3 {
         display: block;
+        padding-bottom: 30px;
     }
 
     .form {
         padding-top: 10px;
-        padding-bottom: 10px;
         width: 100%;
         height: 100%;
         background-image: url('../resources/backgrounds/B4.png');
@@ -435,7 +445,15 @@ p, h1, body {
     }
 
     .video video {
-        padding-top: 2vh;
+        padding-top: 3vh;
         padding-bottom: 1vh;
+    }
+
+    .footer2 {
+        
+    }
+
+    .footer2 img {
+        width: 50%;
     }
 }
