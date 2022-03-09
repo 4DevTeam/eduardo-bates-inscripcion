@@ -202,18 +202,12 @@ p, h1, body {
 }
 
 .video {
-    width: 60%;
-}
-
-.video video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10vh;
+    width: 100%;
+    margin: 40px;
 }
 
 .form {
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 
@@ -440,13 +434,13 @@ p, h1, body {
 
     .video {
         padding-top: 0vh;
+        margin: 0;
         display: block;
-        width: 100%;
     }
 
-    .video video {
-        padding-top: 3vh;
-        padding-bottom: 1vh;
+    .video iframe {
+        width: 100%;
+        height: auto;
     }
 
     .footer2 {
